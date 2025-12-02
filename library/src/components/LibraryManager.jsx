@@ -128,7 +128,7 @@ const LibraryManager = () => {
                     {isEditing ? 'Ndrysho Librin' : 'Shto Liber te Ri'}
                 </h2>
 
-                <Input label="Titulli i Librit (Emri)" name="title" value={bookData.title} onChange={handleChange} error={errors.title}/>
+                <Input label="Titulli i Librit " name="title" value={bookData.title} onChange={handleChange} error={errors.title}/>
                 <Input label="Autori" name="author" value={bookData.author} onChange={handleChange} error={errors.author}/>
 
                 <Input label="Pershkrimi" name="description" value={bookData.description} onChange={handleChange} error={errors.description} isTextarea/>
